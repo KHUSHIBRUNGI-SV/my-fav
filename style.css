@@ -1,0 +1,410 @@
+body {
+    background-color:rgb(85, 83, 83);
+    color:black;
+}
+p {
+   text-shadow: 10rem;
+   text-align: center;
+   font-weight: bolder;
+   font-size: larger;
+}
+.bts {
+    
+    display:flex;
+    flex-direction:row;
+    padding:30px;
+}
+
+.bts p{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.favsong {
+    padding-left: 20rem;
+}
+#bulletproof {
+    padding-right: 20rem;
+}
+
+
+
+
+.one {
+    height:500px;
+    width:500px;
+    background-color: aqua;
+    border:2px solid none;
+    box-shadow:20px;
+    background-image: url("https://th.bing.com/th/id/OIP.91YFq_KpInnIDrIqhQhlWwHaJu?rs=1&pid=ImgDetMain");
+    background-size: cover;
+}
+.two {
+    height:500px;
+    width:500px;
+    background-color: aqua;
+    border:2px solid none;
+    box-shadow:20px;
+    background-image: url("https://th.bing.com/th/id/OIP.tLTs8Xrh7Yt4afPvIltOfwHaLH?w=1280&h=1920&rs=1&pid=ImgDetMain");
+    background-size: cover;
+}
+.thr {
+    height:500px;
+    width:500px;
+    background-color: aqua;
+    border:2px solid none;
+    box-shadow:20px;
+    background-image: url("https://www.gluwee.com/wp-content/uploads/2021/06/BTS_1-1.jpg");
+    background-size: cover;
+}
+
+
+.sev {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start ;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+
+.rm {
+    height:500px;
+    width:500px;
+    border:2px solid none;
+    box-shadow:20px;
+    background-image: url("https://i.pinimg.com/originals/23/a8/9f/23a89f69f46aeb5c9c779215d2c10f39.jpg");
+    background-size: cover;
+    animation:changeone 10s infinite ease-in-out;
+    
+}
+.rm p {
+    padding-left: 30rem;
+    padding-top: 10rem;
+}
+@keyframes changeone {
+    0% {
+        background-image:url("https://i.pinimg.com/originals/9a/13/56/9a13568927b50fc7a962f2dab12eb343.jpg")
+    }
+    25% {
+        background-image:url("https://i.pinimg.com/736x/54/1a/1b/541a1bd2732946fdd2e1fe9fb0332c64.jpg")
+    }
+    50% {
+        background-image:url("https://i.pinimg.com/736x/cd/fa/d3/cdfad3cdc4cce29b992eee909a015046.jpg")
+    }
+    75% {
+        background-image:url("https://i.pinimg.com/originals/46/ef/8c/46ef8cee79ad74700240212a1ece1c85.jpg")
+    }
+    100% {
+        background-image:url("https://pm1.narvii.com/6699/16f2bbc88e6582db924f4d8ae00f4c1b860f4375_hq.jpg")
+    }
+}
+.vidone {
+    padding-left: 20rem;
+}
+a {
+
+    color:black;
+    font-weight: bolder;
+    padding:10px 45rem;
+}
+
+
+
+ .jin {
+    height:500px;
+    width:500px;
+    background-color: aqua;
+    border:2px solid none;
+    box-shadow:20px;
+    background-image: url("https://th.bing.com/th/id/OIP.juqVsGiHgLU4V13XNhNrvQHaJO?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    animation:changetwo 10s infinite ease-in-out;
+    
+}
+.jin p {
+    padding-left: 30rem;
+    padding-top: 10rem;
+}
+@keyframes changetwo {
+    0% {
+        background-image:url("https://i.pinimg.com/originals/44/1e/4b/441e4b46fd4ea93cd1e9ab2244767a5c.jpg")
+    }
+    25% {
+        background-image:url("https://i.pinimg.com/originals/15/31/3c/15313c8162aa3a70ba2f2bc83a882601.jpg")
+    }
+    50% {
+        background-image:url("https://i.pinimg.com/originals/40/9f/e4/409fe44293ed6f3f6555a9b355ed2ef7.jpg")
+    }
+    75% {
+        background-image:url("https://i.pinimg.com/736x/00/7b/e4/007be45b5283c4788697de277faf2a30.jpg")
+    }
+    100% {
+        background-image:url("https://i.pinimg.com/originals/1f/4d/30/1f4d30abb35dd3751555ec12d5ac0cc7.jpg")
+    }
+}
+.vidtwo {
+    padding-left: 20rem;
+}
+a {
+    
+    color:black;
+    font-weight: bolder;
+    padding:10px 45rem;
+}
+
+
+
+.hope {
+    height:500px;
+    width:500px;
+    background-color: aqua;
+    border:2px solid none;
+    box-shadow:20px;
+    background-image: url("https://i.pinimg.com/originals/e7/76/ac/e776ac0a47458350ede9862dac8b1723.jpg");
+    background-size: cover;
+    animation:changethr 10s infinite ease-in-out;
+}
+.hope p {
+    padding-left: 30rem;
+    padding-top: 10rem;
+}
+@keyframes changethr {
+    0% {
+        background-image:url("https://i.pinimg.com/originals/a0/81/69/a08169066b9aca6a72f934a0c7fb6497.jpg")
+    }
+    25% {
+        background-image:url("https://images.squarespace-cdn.com/content/v1/5aa2069c25bf02363bf5c7c4/2db608b9-6c5d-4dc4-8556-2b7bdb5c6878/hobi.jpg")
+    }
+    50% {
+        background-image:url("https://i.pinimg.com/originals/f6/cb/f0/f6cbf0bf40e55e5cb10fb0009c663c49.jpg")
+    }
+    75% {
+        background-image:url("https://wallpapercave.com/wp/wp6627325.jpg")
+    }
+    100% {
+        background-image:url("https://i.pinimg.com/736x/56/3b/97/563b97eeabc7050fd91e0adb452fd976.jpg")
+    }
+}
+.vidthr {
+    padding-left: 20rem;
+}
+a {
+    
+    color:black;
+    font-weight: bolder;
+    padding:10px 45rem;
+}
+
+
+
+
+ .suga {
+    height:500px;
+    width:500px;
+    background-color: aqua;
+    border:2px solid none;
+    box-shadow:20px;
+    background-image: url("https://i.pinimg.com/originals/fe/15/d1/fe15d15dc8e7665b080ef94e7b053870.jpg");
+    background-size: cover;
+    animation:changefour 10s infinite ease-in-out;
+}
+.suga p {
+    padding-left: 30rem;
+    padding-top: 10rem;
+}
+@keyframes changefour {
+    0% {
+        background-image:url("https://i.pinimg.com/736x/90/63/a5/9063a516854e3cbb5da6d00034fa7a4e.jpg")
+    }
+    25% {
+        background-image:url("https://i.pinimg.com/originals/4f/92/5d/4f925dda15c977fe9af04758d4edccef.jpg")
+    }
+    50% {
+        background-image:url("https://pm1.narvii.com/6674/0a23eb23e37c6d73e134a4dfcce684212bc8fd56_hq.jpg")
+    }
+    75% {
+        background-image:url("https://pm1.aminoapps.com/6376/aaaffa86c27e4fb090945c51cf82849422eba1e4_hq.jpg")
+    }
+    100% {
+        background-image:url("https://i.pinimg.com/736x/29/e9/65/29e965489dda84a9eb9424e8c60a85d6.jpg")
+    }
+}
+.vidfour {
+    padding-left: 20rem;
+}
+a {
+    
+    color:black;
+    font-weight: bolder;
+    padding:10px 45rem;
+}
+
+
+
+
+
+
+.jim {
+    height:500px;
+    width:500px;
+    background-color: aqua;
+    border:2px solid none;
+    box-shadow:20px;
+    background-image: url("https://i.pinimg.com/736x/ab/f0/b5/abf0b5c15cbe237ec131a7752c03751d.jpg");
+    background-size: cover;
+    animation:changefive 10s infinite ease-in-out;
+}
+.jim p {
+    padding-left: 30rem;
+    padding-top: 10rem;
+}
+@keyframes changefive {
+    0% {
+        background-image:url("https://i.pinimg.com/originals/89/8f/eb/898feb020c5f3d32028090851f8689c2.jpg")
+    }
+    25% {
+        background-image:url("https://wallpapercave.com/wp/wp9082127.jpg")
+    }
+    50% {
+        background-image:url("https://i.pinimg.com/originals/9a/ac/f6/9aacf64964959742e9e5a618eedb8ea9.jpg")
+    }
+    75% {
+        background-image:url("https://i.pinimg.com/736x/46/1f/1a/461f1a09fc9042579b36dc2f11619381.jpg")
+    }
+    100% {
+        background-image:url("https://i.pinimg.com/originals/e3/81/28/e3812878cce1df1bd1aa8d1701dd4b99.jpg")
+    }
+}
+.vidfive {
+    padding-left: 20rem;
+}
+a {
+    
+    color:black;
+    font-weight: bolder;
+    padding:10px 45rem;
+}
+
+
+
+.v {
+    height:500px;
+    width:500px;
+    background-color: aqua;
+    border:2px solid none;
+    box-shadow:20px;
+    background-image: url("https://th.bing.com/th/id/OIP.SwnzS6u7ZVfiwhUe5J4UggHaE5?rs=1&pid=ImgDetMain");
+    background-size: cover;
+    animation:changesix 10s infinite ease-in-out;
+}
+.v p {
+    padding-left: 30rem;
+    padding-top: 10rem;
+}
+@keyframes changesix {
+    0% {
+        background-image:url("https://i.pinimg.com/736x/7f/97/87/7f97875b3f2cf7f3a12f9af3f60abd44.jpg")
+    }
+    25% {
+        background-image:url("https://i.pinimg.com/originals/24/66/b4/2466b45b16f605a4c2ad34f0879c396c.jpg")
+    }
+    50% {
+        background-image:url("https://pm1.narvii.com/7065/f44c199c7aabc950b604acbea4265895e4e04cd4r1-736-1040v2_hq.jpg")
+    }
+    75% {
+        background-image:url("https://i.pinimg.com/originals/1b/52/c3/1b52c377fac5a0c04476e82e16c41d8a.jpg")
+    }
+    100% {
+        background-image:url("https://i.pinimg.com/736x/39/91/75/399175ddb4e32a4e7d5dc48d5a685695.jpg")
+    }
+}
+.vidsix {
+    padding-left: 20rem;
+}
+a {
+
+    color:black;
+    font-weight: bolder;
+    padding:10px 45rem;
+}
+
+
+
+
+ .jk {
+    height:500px;
+    width:500px;
+    background-color: aqua;
+    border:2px solid none;
+    box-shadow:20px;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/442/776/desktop-wallpaper-jungkook-bts-jk.jpg");
+    background-size: cover;
+    animation:changesev 10s infinite ease-in-out;
+    
+}
+.jk p {
+    padding-left: 30rem;
+    padding-top: 10rem;
+}
+@keyframes changesev {
+    0% {
+        background-image:url("https://i.pinimg.com/originals/54/1b/ff/541bffb39faf810331e792a2d67421d2.jpg")
+    }
+    25% {
+        background-image:url("https://th.bing.com/th/id/OIP.0TnLU-hxu8W9x6CWBlnyuwAAAA?w=474&h=711&rs=1&pid=ImgDetMain")
+    }
+    50% {
+        background-image:url("https://i.pinimg.com/originals/c5/14/d5/c514d55f7c59408007580d68cfd9708f.jpg")
+    }
+    75% {
+        background-image:url("https://th.bing.com/th/id/OIP.EqaI3o4ySOnJIhB9nXCnvQAAAA?rs=1&pid=ImgDetMain")
+    }
+    100% {
+        background-image:url("https://th.bing.com/th/id/OIP.tF2nMut0nCqtwv21FqxtcgHaJQ?w=900&h=1125&rs=1&pid=ImgDetMain")
+    }
+}
+.vidsev {
+    padding-left: 20rem;
+}
+a {
+    
+    color:black;
+    font-weight: bolder;
+    padding:10px 45rem;
+}
+
+
+.awards {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.awards img {
+    height:500px;
+    width:500px;
+    border-radius: 10px;
+    transition:all linear 1s;
+}
+
+.awards img:hover {
+    transform:scale(2) rotate(360deg);
+}
+
+#last {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    text-align: center;
+}
+     
+
